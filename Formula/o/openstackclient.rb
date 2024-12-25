@@ -315,6 +315,11 @@ class Openstackclient < Formula
     sha256 "c2b621098de0a9c92548af256a9b2016adb9622ddac041a06ab5b66bb5b590ee"
   end
 
+  resource "python-socks" do
+    url "https://files.pythonhosted.org/packages/26/a2/dac502b749429cec85086ad8077e32a77eef100730dbc13b37ad658079fc/python_socks-2.5.3.tar.gz"
+    sha256 "4414b2a24777e439758a5f4644f81509ee634e6893115fe7fd1ec482b4b5c979"
+  end
+
   resource "python-swiftclient" do
     url "https://files.pythonhosted.org/packages/1e/aa/77250fe47fcc62d4e97c921e853eaa717d1bd538527c2f249b29cc903a21/python-swiftclient-4.6.0.tar.gz"
     sha256 "d4d18540413893fc16ad87791d740f823f763435e8212e68eb53d60da2638233"
